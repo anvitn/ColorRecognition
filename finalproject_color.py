@@ -27,7 +27,7 @@ print(X.shape)
 
 ## KMeans Algorithm
 
-k = 5
+k = 5 ## Change this number based on how many colors you would like to see
 model = KMeans(n_clusters=k, random_state=42)
 model.fit(X)
 
